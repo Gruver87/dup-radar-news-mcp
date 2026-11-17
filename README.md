@@ -24,19 +24,28 @@ Not a headline scraper. Not a trading bot. **Not financial advice.**
 | `radar_listings_board` | listings sector rows |
 | `radar_news_policy` | hard policy JSON |
 
+## Quick demo (fixtures — no live radar)
+
+```bash
+git clone https://github.com/Gruver87/dup-radar-news-mcp.git && cd dup-radar-news-mcp
+python -m pip install -e ".[dev]"
+make demo
+# or: python -m radar_news_mcp.demo
+# Windows: .\scripts\demo.ps1
+```
+
 ## Install
 
-```powershell
-cd C:\Users\vovun\Desktop\dup-radar-news-mcp
+```bash
 python -m pip install -e ".[dev]"
-.\scripts\test_all.ps1
+make test   # or: .\scripts\test_all.ps1
 ```
 
 Copy `mcp.json` into Cursor MCP config (set `RADAR_API_KEY` if your radar requires it).
 
-```powershell
+```bash
 # optional live smoke (radar must be up)
-.\scripts\smoke_live.ps1
+# Windows: .\scripts\smoke_live.ps1
 ```
 
 ## Honesty
