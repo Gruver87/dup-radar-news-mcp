@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "product": "DUP Market Radar",
+  "schema_version": "test",
+  "generated_at_ms": 1731860000000,
+  "universe_size": 3,
+  "mtf_ensure_ok": true,
+  "cache": { "age_ms": 1200 },
+  "auto_trade": { "enabled": false },
+  "sectors": {
+    "spot_alts": [
+      {
+        "symbol": "AAAUSDT",
+        "change_bps_1h": 350,
+        "price_i": 100000000
+      },
+      {
+        "symbol": "BBBUSDT",
+        "change_bps_1h": -220,
+        "price_i": 200000000
+      }
+    ],
+    "memes": [
+      {
+        "symbol": "MEMEUSDT",
+        "metrics": { "change_bps_1h": 900 },
+        "price_i": 50000000
+      }
+    ],
+    "listings": [
+      {
+        "symbol": "NEWUSDT",
+        "change_bps_1h": 150,
+        "price_i": 75000000,
+        "setup": "list"
+      }
+    ],
+    "futures": [
+      {
+        "symbol": "AAAUSDT",
+        "funding_rate_i": 500000,
+        "price_i": 100000000
+      },
+      {
+        "symbol": "ZZZUSDT",
+        "metrics": { "funding_rate_i": -800000 },
+        "price_i": 300000000
+      }
+    ]
+  }
+}

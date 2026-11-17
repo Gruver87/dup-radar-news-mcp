@@ -1,0 +1,10 @@
+{
+  "ok": false,
+  "product": "DUP Market Radar",
+  "cache": { "age_ms": 99999 },
+  "sectors": {
+    "spot_alts": [
+      { "symbol": "AAAUSDT", "change_bps_1h": 100, "price_i": 1 }
+    ]
+  }
+}
